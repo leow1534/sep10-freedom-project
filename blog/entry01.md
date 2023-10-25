@@ -1,7 +1,9 @@
-# Entry 1
-##### X/X/XX
+# Entry 1 Deciding my topic (Cooking)
+##### 10/23/23
 
-Text
+#### Choosing the topic
+
+The topic I de
 
 [Next](entry02.md)
 
