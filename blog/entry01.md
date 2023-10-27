@@ -10,7 +10,7 @@ Some of the articles about fitness and accounting were [how technology is changi
 
 ## Engineering Design Process
 
-I am on the Step 1 of EDP (engineering design process) which is defining the problem and the Step 2 of EDP which is researching the problem. First, we were defining what we are most passionate about. Then, we do more deep research in the field that we are more passionate about and do more research about the technology that is used in that field. For instance, some technologies that were used in the field of cooking are “3D food printing, laser cooking.” I think I'll be on step 2 for a while before I move on to the next step 3 which is brainstorming possible solutions.
+I am on the Step 1 of EDP (engineering design process) which is defining the problem and the Step 2 of EDP which is researching the problem. First, we were defining what we are most passionate about. Then, we do more deep research in the field that we are more passionate about and do more research about the technology that is used in that field. For instance, some technologies that were used in the field of cooking are “3D food printing, laser cooking.” I think I'll be on step 2 for a while.
 
 ## Skills
 
