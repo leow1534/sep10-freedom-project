@@ -11,7 +11,11 @@
 * #FFFFFF
 * #000000
 ## Fonts
-* [Text](URL)
+* [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=Bebas+Neue)
+* [Montserrat](https://fonts.google.com/specimen/Montserrat)
+* [Lato](https://fonts.google.com/specimen/Lato)
+
+
 
 ## Timeline
 

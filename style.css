@@ -47,3 +47,15 @@ header.masthead {
 .pad-bot{
    padding-bottom: 10px;
 }
+.mont{
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400px;
+   font-style: normal;
+ }
+ .lato {
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+
