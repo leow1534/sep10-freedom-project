@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
+        <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" type="text/css" />
         <style>
@@ -28,10 +28,10 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Part A</a>
+                    <a class="nav-link active" aria-current="page" href="#a">Part A</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Part B</a>
+                    <a class="nav-link active" aria-current="page" href="#b">Part B</a>
                   </li>
                 </ul>
               </div>
@@ -54,7 +54,7 @@
                 <h5 class="card-title">Part A</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary"> </h6>
                 <p class="card-text">software and hardware that already exist and how they help chefs around the world.</p>
-                <a href="#" class="card-link">Part A</a>
+                <a href="#a" class="card-link">Part A</a>
               </div>
             </div>
             <div class="card mx-auto" style="width: 20rem;">
@@ -63,24 +63,24 @@
                 <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
                 <p class="card-text">Part B is about software and hardwares that may appear in the future based on my creativity.</p>
                 <h6 class="card-subtitle mb-2 text-body-secondary">I am not creative at all so dont expect much.</h6>
-                <a href="#" class="card-link">Part B</a>
+                <a href="#b" class="card-link">Part B</a>
               </div>
             </div>
           </div>
         </div>
 
-        <h1 class="heading pad-top">Part A</h1>
-        <div class="container">
+        <h1 class="heading pad-top" id="a">Part A</h1>
+        <div class="container border-bottom">
           <div class="row">
             <div class="col-md-6">
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       Software #1
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                        <img src="img/tasty.png" class="im">
                        <p>Tasty is an app that shows user many different recipes and how to perpare the dish aswell.</p>
@@ -100,19 +100,20 @@
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <img src="img/side.png" class="im2">
+                      <p></p>
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
+                      Software Item #3
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <img src="img/excel.png" class="im">
                     </div>
                   </div>
                 </div>
@@ -122,11 +123,11 @@
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       Accordion Item #1
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                     </div>
@@ -160,6 +161,40 @@
             </div>
           </div>
         </div>
+        <div class="bg-gray">
+          <h1 class="heading pad-top" id="b">Part B</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <p>For this part I thought that in the future there may be something like a holographic device that you could use to help you in the kitchen with stuff like recipes and how to prepare your ingredients before cooking.</p>
+                  Here's a list of the idea I have for this device:
+                  <ul>
+                    <li>Shows you recipes or a recipe video. (</li>
+                    <li>Shows the nutrition facts, ingredients, and how long it would take in a preview before actually selecting the recipe to show. </li>
+                    <li>Step you need to take to make it with images of how it should look like. (only for recipes without video)
+                    </li>
+                    <li>Voice recognition</li>
+                    <ul>
+                      <li>If the recipe has a video to it you can tap on the video and it will select the video and discard the recipe.</li>
+                      <li>Saying stop will stop the video for you to catch up with what is going now.</li>
+                      <li>Saying play will plays the video where it stopped.</li>
+                      <li>Saying slow down will slow down the video.</li>
+                    </ul>
+                  </ul>
+              </div>
+              <div class="col-md-6">
+                <img src="img/holo1.png" class="im">
+              </div>
+              <div class="col-md-6">
+              </div>
+              <div class="col-md-6 pad-bot">
+                <img src="img/holo2.png" class="im">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- <script src="script.js"></script> -->
         <script>

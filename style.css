@@ -24,6 +24,10 @@ header.masthead {
    max-width: 100%;
    height: auto;
 }
+.im2{
+   max-width: 100%;
+   height: 300px;
+}
 .white{
    color: white;
 }
@@ -31,4 +35,15 @@ header.masthead {
    font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.border-bottom {
+   border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+   padding-bottom: 10px;
+}
+.bg-gray {
+   --bs-bg-opacity: 1;
+   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+.pad-bot{
+   padding-bottom: 10px;
 }
