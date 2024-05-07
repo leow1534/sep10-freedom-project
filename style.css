@@ -39,6 +39,7 @@ header.masthead {
 .border-bottom {
    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
    padding-bottom: 10px;
+   max-width: 100%;
 }
 .bg-gray {
    --bs-bg-opacity: 1;

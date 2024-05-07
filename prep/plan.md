@@ -27,4 +27,6 @@
 
 #### Beyond MVP
 
-* Task
+- [ ] Indicate my tool
+- [ ] Add colors
+- [ ] Change part A & B to something different 
