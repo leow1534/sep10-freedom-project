@@ -27,6 +27,6 @@
 
 #### Beyond MVP
 
-- [ ] Indicate my tool
-- [ ] Add colors
-- [ ] Change part A & B to something different 
+* Indicate my tool
+* Add colors
+* Change part A & B to something different
